@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#card{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(185, 232, 240);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    align-items: center;
+
+}
+body{
+    background-color: #35a7b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+h1, h2{
+    margin-bottom: 20px;
+    margin: 10px 0;
+    color: #107280;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    background-color: #2898a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #218838;
+
+}
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+}
+#result.underweight{
+    color: #ffc107; /* Yellow for underweight */
+}
+#result.normal{
+    color: #28a745; /* Green for normal weight */
+}
+#result.overweight{
+    color: #fd7e14; /* Orange for overweight */
+}
+#result.obese{
+    color: #dc3545; /* Red for obese */
+}
+#result.error{
+    color: #6c757d; /* Gray for error */
+}
+/* End of file: BMI-Calculator/style.css */
